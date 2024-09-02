@@ -1,7 +1,13 @@
 {
   "name": "koishi-plugin-threads",
   "description": "koishi plugin for threads",
-  "version": "0.0.1",
+  "author": {
+    "name": "TEDIORELEE",
+    "email": "tediorelee@gmail.com",
+    "url": "https://github.com/tediorelee"
+  },
+  "private": false,
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -15,6 +21,12 @@
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "description": {
+      "en": "Koishi plugin for threads",
+      "zh": "识别群聊中的Threads分享链接，没错是Meta那个Threads"
+    }
+  },
   "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.8"
